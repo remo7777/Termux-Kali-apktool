@@ -136,10 +136,10 @@ if [ "$PROC33" = "y" ]; then
 echo -e "\e[1;34m[*] \e[32mPlease wait.. setup termux bind-apk\e[0m";
 tsetup &> /dev/null & spin
 sleep 1
-echo -e "\e[1;34m[*] \e[32mPlease wait.. installing parrot on termux..\e[0m";
+echo -e "\e[1;34m[*] \e[32mPlease wait.. installing kali on termux..\e[0m";
 uinstall &> /dev/null & spin
 sleep 1
-echo -e "\e[1;34m[*] \e[32mPlease wait.. installing parrot packages..\e[0m";
+echo -e "\e[1;34m[*] \e[32mPlease wait.. installing kali packages..\e[0m";
 upackage &> /dev/null & spin
 sleep 1
 echo -e "\e[1;34m[*] \e[32mSetup Finished..\e[0m"
